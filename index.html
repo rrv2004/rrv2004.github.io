@@ -1,7 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>Its JOEWARIDA</p>
+
+    <button id="theme-toggle">🌙</button>
+
+    <div id="drag-container">
+        <div id="spin-container">
+            <!-- Add your images (or video) here -->
+            <div class="card">
+                <div class="card-label">Projects</div>
+                <img src="./assets/projects.jpg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-label">Games</div>
+                <img src="./assets/gaming.jpg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-label">Music</div>
+                <img src="./assets/music.jpg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-label">Socials</div>
+                <img src="./assets/socials.jpg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-label">Blog</div>
+                <img src="./assets/blog.jpg" alt="">
+            </div>
+
+            <!-- Example add video  -->
+            <!-- <video controls autoplay="autoplay" loop>
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            </video> -->
+
+            <!-- Text at center of ground -->
+            <p>Welcome</p>
+        </div>
+        <div id="ground"></div>
+    </div>
+
+    <div id="intro-card">
+        <h2>About Me</h2>
+        <p>I'm Rohan a final year student at BITS Pilani</p>
+    </div>
+
+    <div id="music-container"></div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
